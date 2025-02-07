@@ -5,6 +5,7 @@ const transformDataToFront = (data) => {
   const result = firstRegion.map(
     ({ description, code }) => `<li value="${code}">${description}</li>`
   );
+  console.log("result== ", result);
   return result;
 };
 
