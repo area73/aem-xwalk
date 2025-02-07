@@ -29,7 +29,8 @@ export default async function decorate(block) {
     outputList = error.message;
   }
 
-  block.innerHTML = outputList.join(" ");
+  console.log(outputList);
+  //  block.innerHTML = outputList.join(" ");
 
   console.log(block);
 }
