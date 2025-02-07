@@ -10,8 +10,6 @@ const transformDataToFront = (data) => {
 };
 
 const patternFlyEl = `
-<script type="module" src="https://esm.sh/@patternfly/elements/pf-card/pf-card.js"></script>
-
 <pf-card border>
   <h2 slot="header">Card component</h2>
   <p>PatternFly Elements are custom HTML elements that work everywhere.
